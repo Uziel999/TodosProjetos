@@ -1,0 +1,12 @@
+body {}
+
+.parte-fora {
+    width: 300px;
+    margin-left: 100px;
+    background-color: #232323;
+}
+
+img {
+    width: auto;
+    height: auto;
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/267af2fe61.js" crossorigin="anonymous"></script>
+    <title>Portfólio</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        body {
+            background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+            font-family: 'Roboto', sans-serif;
+            color: #1C1C1C;
+        }
+        
+        .container {
+            background-color: #F7F7F7;
+            width: 80%;
+            height: auto;
+            margin-left: 64px;
+            margin-right: 6400px;
+            border-radius: 20px;
+            box-shadow: 6px 6px 6px #0E1D2F;
+            padding: 50px;
+        }
+        
+        .perfil {
+            display: flexbox;
+            align-items: center;
+        }
+        
+        .foto-perfil {
+            border-radius: 400px;
+            max-height: 150px;
+            width: 170px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 25);
+        }
+        
+        .titulo {
+            margin-left: 200px;
+            margin-top: -160px;
+        }
+        
+        main {
+            background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+            width: 100%;
+            height: 460px;
+            margin-top: 90px;
+            border-radius: 20px;
+            margin-bottom: 0;
+        }
+        
+        .titulo-main {
+            text-align: center;
+            padding-top: 40px;
+            font-size: 26px;
+        }
+        
+        .titulo h1 {
+            margin-top: 40px;
+            font-family: Roboto;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 42px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        
+        .titulo h3 {
+            font-family: Roboto;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        
+        .projetos {
+            text-align: center;
+            font-size: 24px;
+        }
+        
+        .icons {
+            width: 33px;
+            height: 50px;
+            margin: 0 10px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            border-radius: 50%;
+            overflow: hidden;
+            transition: transform 1s;
+        }
+        
+        .icons a {
+            color: #121212;
+        }
+        
+        .icons:hover {
+            transform: scale(1.3);
+        }
+        
+        .icons::before {
+            contain: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to left, #b52b65, #ed6663);
+            z-index: -1;
+            border-radius: 50%;
+            transform: translate(100%, 100%);
+            transform: all 4s;
+        }
+        
+        .icons:hover::before {
+            transform: translate(0);
+            animation: animate 4s linear;
+        }
+        
+        @keyframes animate {
+            0%,
+            100% {
+                width: 100%;
+                height: 100%;
+            }
+            50% {
+                width: 50%;
+                height: 50%;
+            }
+        }
+        
+        footer {
+            text-align: center;
+            color: #F7F7F7;
+        }
+        
+        footer a {
+            color: #F7F7F7;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="perfil">
+
+            <img class="foto-perfil" src="https://lh3.googleusercontent.com/Q5vLbYlQqnHmPHiicIUNTytHvqzex2O8c__0R-KjM_Fxv0ZlbckcJmUyBwpY9qAPrEA5v-rb33INA6wUd1oey4FeG_co_nryiXMQkXqOZbLHeBWzt5Uo1d_Cgn1Tfw7LrcibOM_WYxQCmLexKZkThkUst9LGdJerFZSpaubl07f5RNFyfa5lUUS2YqV5pJuI9qbahSXAMHfOWit7F2A-q6QgPP9pshhZe5fnAQQrVSDGZ28kFubwY5Q5DrWkvq97jXHmKEZBA5vlI-pGj0Wa9u8PchImM0hFV17MYSmifiFhAkOZizyFCejB908cQp3BsCdF5hPHxoA92IdDENW2iZbGqowuyJKef9crLWKfPkRiAiEoGF4doCK4yUfwVWi6sdERLxbBzeYmoGNUcXyK756B0UIer2QJgKiAu3W-ZeRQOrHKqybw4MI0r0gwTQuXJAS-5UN28g2qdZsHOcPOMpOzEqJsWyTMTuWvx3EvhPpyZfdcTWESqsI0iu3PQ2H-g0FfaTB7dAA2SKeDGlsEJbOTNHL6DhU8L-zf6NBtIVMBvKA7xteY8YnMqYLrZ6Kc01vANXT6iGwitjROk-f8WUfrEcb-bSO5CCufB15yi-6YCr8JaEeewtkmJ8g78hB-o2v-6cVAFFfkVOhQzEpB2V6wen4L-rwPi0Fa-iYeX9ZOa3fUTtoqLOZLuejEg5SFawVyITPcxxaMHvGVuyWiU2Ru=w277-h208-no?authuser=0"
+                alt="imagem">
+            <div class="titulo">
+                <h1>Uziel Inacio souza dos Santos</h1>
+                <h3>Estudante de font-end</h3>
+
+
+                <div class="icons">
+                    <a href="https://www.instagram.com/uziel_inacio"><i class="fab fa-instagram fa-2x"></i></a>
+                </div>
+                <div class="icons">
+                    <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+                </div>
+                <div class="icons">
+                    <a href="https://github.com/Uziel999"><i class="fab fa-github fa-2x"></i></a>
+                </div>
+                <div class="icons">
+                    <a href=""><i class="fab fa-facebook-square fa-2x"></i></a>
+                </div>
+
+
+
+
+            </div>
+
+            <main>
+
+                <div class="projetos">
+                    <div class="titulo-main">
+                        <h1>Projetos</h1>
+                    </div>
+                    <p><i class="fas fa-calculator"></i>
+                        <a href="#">calculadora </a>
+                    </p>
+                    <p><i class="fas fa-hand-holding-usd"></i>
+                        <a href="#">Conversor de Moedas</a>
+                    </p>
+
+
+                    <p><i class="fas fa-gamepad"></i>
+                        <a href="#"> Supertrunfo</a>
+                    </p>
+
+                    <p><i class="far fa-id-card"></i>
+                        <a href="#">Certificad
+                    </p>
+                </div>
+
+            </main>
+    </div>
+    </header>
+    <footer>
+
+        <p><a href="https://www.google.com.br/">&copy;Uziel</a></p>
+
+
+                    </footer>
+
+</body>
+
+</html>

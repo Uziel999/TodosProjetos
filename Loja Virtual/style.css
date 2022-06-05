@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+
+}
+
+body {
+    background-color: beige;
+}
+
+header {
+    background-color: rgb(108, 108, 223);
+    color: #fff;
+
+}
+
+.titulo h1 {
+    text-align: center;
+}
+
+section {
+    padding: 10%;
+
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.card-add {
+    padding: 20px;
+    border-radius: 5px;
+    border: solid 1px rgb(125, 120, 120);
+    background-color: #fff;
+
+}
+
+input {
+    outline: 0;
+    margin: 10px;
+    display: grid;
+    text-decoration-style: none;
+}
+
+button {
+    border: 0px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color:rgb(108, 108, 223);
+    padding: 10px;
+    text-align: center;
+}
+button:hover{
+    background-color:rgb(87, 87, 210) ;
+}

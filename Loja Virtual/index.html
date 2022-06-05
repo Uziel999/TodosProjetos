@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Loja Virtual</title>
+</head>
+
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Loja</h1>
+        </div>
+    </header>
+
+    <section>
+        <div class="card">
+            <h2>Produtos</h2>
+            <span>lista de produtos da loja</span>
+        </div>
+        <div class="card-add">
+            <label>Produtos:</label>
+            <input type="text" name="" id="produto">
+            <label>Valor:</label>
+            <input type="number" name="" id="valor">
+            <button onclick="produto.salvar()">Salvar</button>
+            <button onclick="produto.cancelar()">Cancelar</button>
+        </div>
+
+        <table>
+            <thead>
+                <th>ID</th>
+                <th>Produto</th>
+                <th>Valor</th>
+                <th>Acões</th>
+            </thead>
+
+            <tbody id="tbody">
+
+
+            </tbody>
+        </table>
+
+    </section>
+
+    <script src="/Loja Virtual/script.js"></script>
+
+</body>
+
+</html>

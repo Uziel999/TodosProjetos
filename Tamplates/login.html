@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url('https://www.grupoescolar.com/a/b/paisagem-2C.jpg');
+            height: 440px;
+            background-repeat: no-repeat;
+            display: block;
+            margin: auto;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        #titulo {
+            text-align: center;
+            font-family: Arial, normal, sans-serif;
+            margin-top: 190px;
+        }
+        
+        .container {
+            text-align: center;
+        }
+        
+        #nome {
+            width: 280px;
+            height: 32px;
+            margin-top: 15px;
+            border-radius: 15px;
+            border-style: none;
+            /* background-color: rgb(243, 241, 174); */
+        }
+        
+        #senha {
+            width: 280px;
+            height: 32px;
+            margin-top: 15px;
+            border-radius: 15px;
+            border-style: none;
+            /* background-color: rgb(243, 241, 174); */
+        }
+        
+         ::placeholder {
+            text-align: center;
+            color: black;
+        }
+        
+        #bnt-submite {
+            width: 280px;
+            height: 32px;
+            border-radius: 15px;
+            margin-top: 15px;
+            border-style: none;
+            cursor: pointer;
+            /* background-color: rgb(166, 245, 166); */
+        }
+        
+        #esqSenha {
+            color: #fff;
+            margin-left: 20px;
+        }
+        
+        #chek {
+            margin-top: 10px;
+            color: #fff;
+        }
+        
+        p {
+            color: #fff;
+        }
+        
+        #btn {
+            width: 133px;
+            height: 47px;
+            margin-top: 10px;
+            background-color: aliceblue;
+            cursor: pointer;
+            border-radius: 7px;
+        }
+    </style>
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo">Login</h1>
+    </header>
+
+    <section>
+        <div class="container">
+            <input type="email" id="nome" placeholder="UserName"><br>
+            <input type="password " name="senha " id="senha" placeholder="Password "><br>
+            <button type="submit " id="bnt-submite">SING IN</button><br>
+            <input type="checkbox" name="Relembre-me" id="chek">Relembre-me</input>
+            <a href="#" id="esqSenha">Esqueci a senha </a>
+            <p>-Ou faça por-</p>
+            <button type="submit " id="btn">Facebook</button>
+            <button type="submit " id="btn">Instagram</button>
+        </div>
+    </section>
+
+</body>
+
+</html>
